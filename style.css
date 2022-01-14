@@ -47,6 +47,121 @@ nav a {
   margin-top: 19px;
 }
 .button a {
+  display: inline;
   text-decoration: none;
   color: white;
+}
+
+/*---------------------- Popular Collection Products ---------------------------*/
+
+.collection {
+  width: 1047px;
+  height: 1662px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 360px;
+}
+.collection h2 {
+  font-size: 28px;
+  color: #3a3a3a;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}
+.product {
+  width: 315px;
+  height: 476px;
+  border-radius: 5px;
+  padding-left: 13px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.product-icon img {
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+  margin-top: 13px;
+}
+.product-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #18191f;
+  margin: 10px 0px;
+}
+.product-price {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  margin: -8px 0px;
+}
+.product-rating {
+  margin: 10px 0px;
+}
+.fas.fa-star,
+.fas.fa-star-half-alt {
+  font-size: 10px;
+  color: #fb8200;
+}
+span {
+  color: #5e6366;
+}
+.product-description {
+  margin-top: -10px;
+}
+p {
+  font-size: 15px;
+  color: #787885;
+  font-weight: bold;
+  margin: 0px 0px;
+}
+.arrow-button {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 42px;
+  text-align: right;
+}
+.arrow-button a {
+  text-decoration: none;
+  color: #1faa59;
+}
+
+/* Bonus Part */
+.container {
+  width: 1210px;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.details {
+  margin-left: 40px;
+}
+.details h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.details p {
+  font-size: 16px;
+}
+.ilastration img {
+  width: 390px;
+  height: 300px;
+}
+.join-button {
+  background-color: #1faa59;
+  width: 155px;
+  height: 44px;
+  margin-top: 16px;
+}
+.join-button a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 9px;
+  left: 17.5px;
 }
