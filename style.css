@@ -515,9 +515,10 @@ footer {
   footer {
     position: relative;
     top: 2000px;
-    width: 145%;
+    width: 155%;
   }
   .footer-container {
-    transform: scale(0.7);
+    position: relative;
+    bottom: 20px;
   }
 }
