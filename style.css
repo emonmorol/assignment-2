@@ -291,7 +291,7 @@ footer {
 }
 .footer-container {
   position: relative;
-  bottom: 50px;
+  bottom: 20px;
   width: 262px;
   height: 139px;
   margin-right: auto;
@@ -439,6 +439,8 @@ footer {
   }
   .footer-container {
     transform: scale(0.7);
+    position: relative;
+    bottom: 42px;
   }
 }
 
