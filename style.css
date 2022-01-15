@@ -468,11 +468,11 @@ footer {
   }
   .main-image {
     position: relative;
-    left: 225px;
+    left: 302px;
   }
   .content {
     position: relative;
-    left: 138px;
+    left: 211px;
     top: -67px;
   }
   .company-logos {
@@ -489,7 +489,7 @@ footer {
   }
   .collection {
     position: relative;
-    left: 44px;
+    left: 100px;
   }
   .collection h2 {
     margin-bottom: 122px;
@@ -511,13 +511,13 @@ footer {
   .container {
     transform: scale(0.89);
     position: relative;
-    right: 36px;
+    right: -33px;
     top: 2010px;
   }
   footer {
     position: relative;
     top: 2000px;
-    width: 155%;
+    width: 162%;
   }
   .footer-container {
     position: relative;
