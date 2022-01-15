@@ -360,6 +360,9 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+  .content h1 {
+    text-align: center;
+  }
   .button {
     margin-right: auto;
     margin-left: auto;
@@ -377,7 +380,16 @@ footer {
     margin-bottom: -112px;
   }
   .company-logos {
-    display: none;
+    width: 80%;
+    height: 15%;
+    position: relative;
+    top: 292px;
+    left: 72px;
+  }
+  .company-logos a img {
+    margin-right: 10px;
+    width: 25px;
+    height: 13px;
   }
   .collection {
     width: 329px;
