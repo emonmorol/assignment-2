@@ -57,9 +57,6 @@ ul li a {
 }
 
 /*---------------- Header Style-------------------*/
-nav a {
-  text-decoration: none;
-}
 .heading {
   display: flex;
   justify-content: space-evenly;
@@ -119,12 +116,12 @@ nav a {
   width: 136px;
   height: 26px;
   border-radius: 68px;
-  padding: 10px 24px 10px 24px;
+  padding: 7px 24px 7px 24px;
   margin-top: 19px;
 }
 .button:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s;
+  transform: scale(1.1);
+  transition: transform 0.3s;
   background-color: #227745;
 }
 .button a {
@@ -144,6 +141,10 @@ nav a {
 }
 .company-logos a img {
   margin-right: 63px;
+}
+.company-logos > a:hover > img {
+  transform: scale(1.5);
+  transition: transform 0.5s;
 }
 
 /*------------- Popular Collection Products------------------*/
@@ -264,20 +265,21 @@ p {
 .join-button {
   background-color: #1faa59;
   width: 155px;
-  height: 44px;
-  margin-top: 16px;
+  height: 38px;
+  margin-top: 18px;
+  border-radius: 76px;
 }
 .join-button:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s;
+  transform: scale(1.1);
+  transition: transform 0.3s;
   background-color: #227745;
 }
 .join-button a {
   color: white;
   text-decoration: none;
   position: relative;
-  top: 9px;
-  left: 17.5px;
+  top: 7px;
+  left: 18.5px;
 }
 
 /*--------------- Footer Part ----------------*/
@@ -333,4 +335,92 @@ footer {
 .fa-youtube {
   position: relative;
   left: 5px;
+}
+
+/*---------------- Responsiveness FOR MObile Phone ----------------*/
+
+@media screen and (max-width: 667px) {
+  body {
+    width: 100%;
+  }
+  .logo-name {
+    position: relative;
+    left: 57px;
+    top: 63px;
+  }
+  .heading {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .navigations {
+    display: none;
+  }
+  .content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main-image img {
+    width: 257px;
+    height: 257px;
+  }
+  .main-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 165px;
+    margin-bottom: -112px;
+  }
+  .company-logos {
+    display: none;
+  }
+  .collection {
+    width: 329px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 360px;
+  }
+  .collection h2 {
+    font-size: 18px;
+    color: #3a3a3a;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .products {
+    grid-template-columns: repeat(1, 3fr);
+  }
+  .container {
+    width: 80%;
+    display: inline;
+    position: relative;
+    bottom: -3012px;
+    margin: 0px auto;
+    margin-left: 0px;
+  }
+  .details {
+    margin-left: 38px;
+    width: 80%;
+  }
+  .details h2,
+  p {
+    text-align: center;
+  }
+  .ilastration img {
+    width: 80%;
+    height: 80%;
+  }
+  .join-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer {
+    position: relative;
+    top: 3000px;
+    width: 100%;
+  }
 }
